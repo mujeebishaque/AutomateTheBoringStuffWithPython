@@ -1,6 +1,7 @@
 # Note-to-self
 # you can use pyperclip to copy and paste text to clipboard
-
+# triple quotes to store gigantic text in a string, can print multiline too.
+# like:  print(""" 400 lines here """)
 value = "string"
 
 value_upper = value.upper()
