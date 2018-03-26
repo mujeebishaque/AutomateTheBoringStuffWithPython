@@ -12,8 +12,6 @@ islower = islower(value)
 
 # isalpha, isalnum, isdecimal, isspace, istitle
 
-
-
 answer = value.startswith("s")
 answer2 = value.endswih("g")
 
@@ -48,6 +46,3 @@ ex.replace('J', 'H')
 
 ex.replace('l', 'LL')
 # p_result: JeLLLLo and heLLLLo
-
-
-
