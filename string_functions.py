@@ -51,5 +51,5 @@ ex.replace('l', 'LL')
 # p_result: JeLLLLo and heLLLLo
 
 #reverse a string
-string_name_here = "something just liek this";
+string_name_here = "something just liek this"
 string_name_here[::-1]
