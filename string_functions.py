@@ -7,13 +7,16 @@ value = "string"
 value_upper = value.upper()
 value_lower = value.lower()
 
-isupper = isupper(value)
-islower = islower(value)
+if value.isupper():
+    pass
+
+if value.islower():
+    pass
 
 # isalpha, isalnum, isdecimal, isspace, istitle
 
 answer = value.startswith("s")
-answer2 = value.endswih("g")
+answer2 = value.endswith("g")
 
 join_string = ','.join(['cats', 'cats', 'cancer', 'camel'])
 join_str_mod = ' '.join(['cats', 'cats'])
@@ -46,3 +49,7 @@ ex.replace('J', 'H')
 
 ex.replace('l', 'LL')
 # p_result: JeLLLLo and heLLLLo
+
+#reverse a string
+string_name_here = "something just liek this";
+string_name_here[::-1]
