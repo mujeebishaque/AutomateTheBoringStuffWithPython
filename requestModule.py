@@ -4,7 +4,8 @@ response = requests.get('url')
 
 result = response.status_code
 
-# suppose we got text from web_page, let's save it in b mode
+# suppose we got text from web_page,So now
+#  let's save it in b mode
 
 file = open('someFile.txt', 'wb')
 # wb => write binary
