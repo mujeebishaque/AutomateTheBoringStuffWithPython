@@ -18,6 +18,10 @@ sheets = workbook.get_sheet_names()
 
 # let's suppose we get a sheet named sheet1, let's work with it
 cellOrColumnName = sheet1['firstColumnName']
+# [] bracket in sheet gets call objects
+# cell objects have value member variable
+# with all the contents of that cell. 
+
 store = str(cellOrColumnName.value)
  
 #  cell() method retusn a Cell object from a sheet
