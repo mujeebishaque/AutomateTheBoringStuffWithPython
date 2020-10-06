@@ -41,6 +41,6 @@ def Set_add(g, ps):
 
 
 for a in ps:
-    g=g+Goyal(a)
+    g=g+shake(a)
 
 print(sparta[len(Set_add(g, ps))])
